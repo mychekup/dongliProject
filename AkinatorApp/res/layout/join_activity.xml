@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/aa" >
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:hint="폰번호를 입력하세요"
+        android:inputType="text"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/nickname"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/phone"
+        android:layout_below="@id/phone"
+        android:layout_marginTop="19dp"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:hint="닉네임 입력하세요"
+        android:inputType="text"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/phone"
+        android:layout_below="@id/nickname"
+        android:layout_marginTop="19dp"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:hint="e-mail 입력하세요"
+        android:inputType="text"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/pw1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/email"
+        android:layout_below="@id/email"
+        android:layout_marginTop="19dp"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:hint="비밀번호를 입력하세요"
+        android:inputType="textPassword"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/pw2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/pw1"
+        android:layout_below="@id/pw1"
+        android:layout_marginTop="16dp"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:hint="비밀번호를 확인하세요"
+        android:inputType="textPassword"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@id/pw2"
+        android:layout_below="@id/pw2"
+        android:layout_marginTop="14dp"
+        android:text="확인"
+        android:textSize="10dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@id/submitBtn"
+        android:layout_alignBottom="@id/submitBtn"
+        android:layout_marginLeft="22dp"
+        android:layout_toRightOf="@id/submitBtn"
+        android:text="뒤로"
+        android:textSize="10dp"
+        android:textStyle="italic" />
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
